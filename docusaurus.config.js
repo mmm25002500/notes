@@ -81,16 +81,26 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'README',
             position: 'left',
             label: '筆記',
           },
-          { to: '/life/intro', label: '生活', position: 'left' },
+          { to: '/life', label: '生活', position: 'left' },
           { to: '/blog', label: '隨筆', position: 'left' },
           {
             href: 'https://tershi.com',
             label: '我的網站',
-            position: 'left',
+            position: 'right',
+          },
+          {
+            href: 'https://blog.tershi.com',
+            label: '部落格',
+            position: 'right',
+          },
+          {
+            href: 'https://resume.tershi.com',
+            label: '履歷表',
+            position: 'right',
           },
           {
             href: 'https://github.com/mmm25002500/notes',
@@ -107,7 +117,15 @@ const config = {
             items: [
               {
                 label: '筆記',
-                to: '/docs/intro',
+                to: '/docs/README',
+              },
+              {
+                label: '生活',
+                to: '/life/README',
+              },
+              {
+                label: '隨筆',
+                to: '/blog',
               },
             ],
           },
