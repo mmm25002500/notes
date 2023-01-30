@@ -113,9 +113,3 @@ const func4 = () => {
   console.log('TershiXia is noob')
 }
 ```
-
-## 相關文章
-
-[《JS 學習筆記二 - Vue API》](/pages/39c63e/)
-
-[《JS 學習筆記三 - 基本運算》](/pages/a3e20f/)

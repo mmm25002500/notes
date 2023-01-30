@@ -117,11 +117,11 @@ const config = {
             items: [
               {
                 label: '筆記',
-                to: '/docs/README',
+                to: '/docs',
               },
               {
                 label: '生活',
-                to: '/life/README',
+                to: '/life',
               },
               {
                 label: '隨筆',

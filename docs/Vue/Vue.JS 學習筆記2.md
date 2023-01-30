@@ -64,9 +64,3 @@ Vue.createApp(app).mounted('#app');
 
 ## 兩個比較
 由上面兩個例子可以比較出，Option API 會比較好懂，在未來我們也會以 Option API 開始介紹，只要再這有個概念就好。
-
-## 相關文章
-
-[《JS 學習筆記一》](/pages/1dea37/)
-
-[《JS 學習筆記三 - 基本運算》](/pages/a3e20f/)
