@@ -31,6 +31,7 @@ const config = {
     defaultLocale: 'zh-TW',
     locales: ['zh-TW'],
   },
+
   presets: [
     [
       'classic',
@@ -54,7 +55,7 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
-    ]
+    ],
   ],
   plugins: [
     [
@@ -67,6 +68,7 @@ const config = {
       },
     ],
   ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({

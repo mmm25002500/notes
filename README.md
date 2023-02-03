@@ -1,40 +1,41 @@
-# 夏特稀筆記網
+# Website
+
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### 安裝
+### Installation
 
 ```
 $ yarn
 ```
 
-### 本地開發
+### Local Development
 
 ```
 $ yarn start
 ```
 
-使用這個指令會幫您打開一個本地開發伺服器和開啟瀏覽器
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### 建置
+### Build
 
 ```
 $ yarn build
 ```
 
-使用這個指令會會幫您生成靜態網頁，並放置在 `build`裡面。
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### 部屬
+### Deployment
 
-使用 SSH:
+Using SSH:
 
 ```
 $ USE_SSH=true yarn deploy
 ```
 
-如果不是使用 SSH:
+Not using SSH:
 
 ```
 $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
-如果你使用 gh_pages，那就用這個指令吧！
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
