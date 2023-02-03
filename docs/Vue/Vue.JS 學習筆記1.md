@@ -1,5 +1,6 @@
 ---
 tags: [Vue.JS]
+pagination_prev: null
 ---
 
 在前端 javascript 框架中，有許多選擇，有 React.JS、Vue.js、Three.Js...等等，在這些框架中，每個框架都有各自獨特的功能，以便我們在網頁開發的時候更快速更順手。多虧了這些框架，在前端開發更為方便，有了框架，再也不是死板困難的Javascript。
